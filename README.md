@@ -1,4 +1,3 @@
-
 # ByteChat - Windows Socket Chat Application
 
 ByteChat is a simple chat application implemented in C for the Windows environment. It allows users to exchange text messages and even share images in real-time using sockets.
@@ -20,6 +19,7 @@ Before running ByteChat, ensure that you have the following installed:
 ## How to Use
 
 1. **Building the Project:**
+
    - Open a terminal and navigate to the project directory.
    - Run the following commands:
      ```bash
@@ -30,10 +30,12 @@ Before running ByteChat, ensure that you have the following installed:
      ```
 
 2. **Running the Server:**
+
    - Execute the `server.exe` binary generated in the build directory.
    - The server will start listening for incoming connections.
 
 3. **Running the Client:**
+
    - Execute the `client.exe` binary generated in the build directory.
    - Enter the server's IP address when prompted.
    - Start chatting by sending text messages or use commands like `send_image` or `receive_image` to share images.
@@ -57,3 +59,8 @@ Contributions are welcome! If you'd like to contribute to ByteChat, please follo
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
+## Demonstration Images
+
+![Image Alt text](byteChat.png)
+
+![Image Alt text](imgPic.png)
